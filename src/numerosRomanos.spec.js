@@ -30,4 +30,7 @@ describe("Numeros romanos", () => {
     it("numero 50 en romano", ()=>{
         expect(numerosRomanos(50)).toEqual("L");
     });
+    it("numero 90 en romano", ()=>{
+        expect(numerosRomanos(90)).toEqual("XC");
+    })
   });
