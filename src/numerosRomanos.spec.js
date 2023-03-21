@@ -23,6 +23,8 @@ describe("Numeros romanos", () => {
     });
     it("numero 15 en romano", ()=>{
         expect(numerosRomanos(15)).toEqual("XV");
-    })
-
+    });
+    it("numero 40 en romano", ()=>{
+        expect(numerosRomanos(40)).toEqual("XL");
+    });
   });
