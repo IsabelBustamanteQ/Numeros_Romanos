@@ -12,4 +12,7 @@ describe("Numeros romanos", () => {
     it("numero 4 en romano", ()=>{
         expect(numerosRomanos(4)).toEqual("IV");
     });
+    it("numero 6 en romano",()=>{
+        expect(numerosRomanos(6)).toEqual("VI");
+    })
   });
