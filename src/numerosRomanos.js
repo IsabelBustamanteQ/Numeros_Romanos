@@ -8,12 +8,20 @@ function numerosRomanos(num)
             numRomano=numRomano+"V";
             num=num-5;
         }
+        
         else
         {
-            numRomano=numRomano+"I";
-            num=num-1;
+            if(num>=4)
+            {
+                numRomano=numRomano+"IV";
+                num=num-4;
+            }
+            else
+            {
+                numRomano=numRomano+"I";
+                num=num-1;
+            }
         }
-        
     }
     return numRomano;
 }

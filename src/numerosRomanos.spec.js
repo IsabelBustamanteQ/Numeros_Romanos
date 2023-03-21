@@ -8,5 +8,8 @@ describe("Numeros romanos", () => {
     });
     it("numero 5 en romano", ()=>{
         expect(numerosRomanos(5)).toEqual("V");
-    })
+    });
+    it("numero 4 en romano", ()=>{
+        expect(numerosRomanos(4)).toEqual("IV");
+    });
   });
