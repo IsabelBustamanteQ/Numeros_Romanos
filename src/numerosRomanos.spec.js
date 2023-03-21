@@ -32,5 +32,8 @@ describe("Numeros romanos", () => {
     });
     it("numero 90 en romano", ()=>{
         expect(numerosRomanos(90)).toEqual("XC");
-    })
+    });
+    it("numero 100 en romano",()=>{
+        expect(numerosRomanos(100)).toEqual("C");
+    });
   });
