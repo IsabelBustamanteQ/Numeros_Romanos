@@ -5,5 +5,8 @@ describe("Numeros romanos", () => {
     });
     it("otro numero romano", () => {
         expect(numerosRomanos(2)).toEqual("II");
-      });
+    });
+    it("numero 5 en romano", ()=>{
+        expect(numerosRomanos(5)).toEqual("V");
+    })
   });
